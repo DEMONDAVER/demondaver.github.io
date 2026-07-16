@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Thailand Excursion | Small Group Thailand Tour – February 2027</title>
+<meta name="description" content="Join My Thailand Excursion for a carefully planned small-group Thailand adventure in February 2027, featuring Bangkok, Pattaya, Phuket, premium hotels, transportation, and curated experiences.">
+<link rel="canonical" href="https://mythailandexcursion.com/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="My Thailand Excursion">
+<meta property="og:title" content="My Thailand Excursion | Small Group Thailand Tour – February 2027">
+<meta property="og:description" content="A carefully planned small-group Thailand adventure featuring Bangkok, Pattaya, Phuket, premium hotels, transportation, and curated experiences.">
+<meta property="og:url" content="https://mythailandexcursion.com/">
+<meta name="twitter:card" content="summary_large_image">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{--navy:#0E3D3E;--navy-mid:#0F4A4A;--gold:#C9A574;--gold-light:#E0C296;--aqua:#3EC19F;--cream:#F2EFE6;--white:#ffffff;--gray:#888888;}
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{background:var(--navy);color:var(--cream);font-family:'Montserrat',sans-serif;font-weight:300;overflow-x:hidden;}
+
+  .top-bar{position:fixed;top:0;left:0;right:0;z-index:100;background:var(--navy);border-bottom:2px solid var(--gold);padding:14px 60px;display:flex;align-items:center;justify-content:center;gap:32px;flex-wrap:wrap;}
+  .top-bar-date{font-size:17px;font-weight:800;letter-spacing:4px;color:var(--white);text-transform:uppercase;}
+  .top-bar-sep{color:var(--gold);font-size:16px;font-weight:300;}
+  .top-bar-dest{font-size:17px;font-weight:700;letter-spacing:3px;color:var(--gold);text-transform:uppercase;}
+  .top-bar-limited{font-size:11px;font-weight:700;letter-spacing:2px;color:var(--navy);background:var(--aqua);padding:4px 14px;text-transform:uppercase;}
+
+  .hero{position:relative;height:100vh;min-height:760px;overflow:hidden;margin-top:52px;}
+  .hero-img{position:absolute;inset:0;}
+  .hero-img img{width:100%;height:100%;object-fit:cover;}
+  .hero-overlay{position:absolute;inset:0;background:linear-gradient(to top,rgba(14,61,62,0.80) 0%,rgba(14,61,62,0.45) 35%,rgba(14,61,62,0.12) 65%,rgba(14,61,62,0.18) 100%);z-index:2;pointer-events:none;}
+  .hero-content{position:absolute;top:12%;left:0;right:0;z-index:3;padding:0 60px 0;display:flex;flex-direction:column;align-items:center;text-align:center;}
+  .hero-title{font-family:'Cormorant Garamond',serif;font-size:clamp(64px,10vw,116px);font-weight:700;line-height:0.95;color:var(--white);text-shadow:0 6px 28px rgba(0,0,0,0.9),0 2px 8px rgba(0,0,0,0.95);}
+  .hero-title em{font-style:italic;color:var(--aqua);display:block;}
+  .hero-subtitle{font-size:clamp(14px,2vw,20px);font-weight:800;letter-spacing:4px;color:var(--gold-light);text-transform:uppercase;margin:18px 0 10px;text-shadow:0 2px 16px rgba(0,0,0,1);background:rgba(0,0,0,0.35);padding:8px 20px;display:inline-block;}
+  .hero-limited{display:inline-block;background:var(--aqua);color:var(--navy);font-size:13px;font-weight:800;letter-spacing:3px;text-transform:uppercase;padding:10px 28px;margin:14px 0 22px;}
+  .gold-bar{width:70px;height:2px;background:var(--gold);margin:0 auto 22px;}
+  .hero-tagline{font-family:'Cormorant Garamond',serif;font-size:clamp(26px,3.6vw,38px);font-weight:700;font-style:italic;color:var(--white);max-width:760px;line-height:1.4;margin-top:30px;text-shadow:0 4px 16px rgba(0,0,0,0.85);}
+  .btn-hero{display:inline-flex;align-items:center;gap:12px;background:var(--aqua);color:var(--navy);padding:20px 48px;font-size:13px;font-weight:800;letter-spacing:3px;text-transform:uppercase;text-decoration:none;transition:all 0.3s;margin-bottom:14px;box-shadow:0 8px 30px rgba(201,168,76,0.4);}
+  .btn-hero:hover{background:var(--gold);transform:translateY(-3px);}
+  .scroll-cta-text{font-size:11px;font-weight:700;letter-spacing:5px;text-transform:uppercase;color:var(--gold);}
+
+  .countdown-section{background:var(--navy-mid);border-bottom:1px solid rgba(201,168,76,0.25);padding:48px 60px;text-align:center;}
+  .countdown-label{font-size:10px;font-weight:700;letter-spacing:5px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+  .countdown-timer{display:flex;justify-content:center;gap:40px;flex-wrap:wrap;margin-bottom:16px;}
+  .countdown-unit{text-align:center;}
+  .countdown-num{font-family:'Cormorant Garamond',serif;font-size:clamp(48px,7vw,72px);font-weight:700;color:var(--white);line-height:1;display:block;}
+  .countdown-unit-label{font-size:10px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-top:4px;display:block;}
+  .countdown-sub{font-size:13px;color:var(--cream);opacity:0.75;letter-spacing:1px;}
+
+  .section{padding:90px 60px;max-width:1100px;margin:0 auto;}
+  .section-label{font-size:10px;font-weight:700;letter-spacing:5px;text-transform:uppercase;color:var(--aqua);margin-bottom:12px;}
+  .section-title{font-family:'Cormorant Garamond',serif;font-size:clamp(36px,5vw,56px);font-weight:700;line-height:1.05;color:var(--white);margin-bottom:26px;}
+  .section-title em{font-style:italic;color:var(--aqua);font-weight:400;}
+
+  .intro-wrap{border-left:3px solid var(--gold);padding-left:44px;}
+  .intro-wrap blockquote{font-family:'Cormorant Garamond',serif;font-size:clamp(20px,3vw,27px);font-style:italic;color:var(--cream);line-height:1.6;margin-bottom:28px;}
+  .intro-wrap p{font-size:15px;line-height:1.9;color:var(--cream);opacity:0.92;margin-bottom:16px;max-width:740px;}
+  .intro-tagline{font-family:'Cormorant Garamond',serif;font-size:20px;font-style:italic;color:var(--gold-light);margin-top:10px;display:block;}
+
+  .photo-strip{display:grid;grid-template-columns:repeat(4,1fr);gap:3px;height:280px;}
+  .hero-placeholder-grid{position:absolute;bottom:0;left:0;right:0;z-index:3;display:grid;grid-template-columns:repeat(4,1fr);gap:3px;height:38vh;}
+  .hero-placeholder-item{background:var(--navy-mid);display:flex;align-items:center;justify-content:center;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--gold-light);overflow:hidden;}
+  .hero-placeholder-item img{width:100%;height:100%;object-fit:cover;}
+  @media(max-width:640px){.hero-placeholder-grid{grid-template-columns:repeat(2,1fr);height:34vh;}}
+  .photo-strip-item{overflow:hidden;}
+  .photo-strip-item img{width:100%;height:100%;object-fit:cover;filter:saturate(1.15);}
+
+  .destinations{display:grid;grid-template-columns:repeat(3,1fr);gap:3px;}
+  .dest{position:relative;height:460px;overflow:hidden;}
+  .dest img{width:100%;height:100%;object-fit:cover;filter:saturate(1.15);}
+  .dest-overlay{position:absolute;inset:0;background:linear-gradient(to top,rgba(14,61,62,0.85) 0%,rgba(14,61,62,0.1) 60%,transparent 100%);}
+  .dest-info{position:absolute;bottom:0;left:0;right:0;padding:32px 28px;}
+  .dest-city{font-family:'Cormorant Garamond',serif;font-size:44px;font-weight:700;color:var(--white);display:block;line-height:1;}
+  .dest-nights{font-size:10px;font-weight:700;color:var(--gold);letter-spacing:3px;text-transform:uppercase;margin:8px 0 10px;display:block;}
+  .dest-desc{font-size:13px;color:var(--cream);opacity:0.88;line-height:1.6;}
+
+  .inclusions{display:grid;grid-template-columns:repeat(2,1fr);gap:2px;background:rgba(201,168,76,0.12);}
+  .inclusion-item{background:var(--navy-mid);padding:36px 40px;display:flex;align-items:flex-start;gap:18px;}
+  .inclusion-icon{color:var(--gold);font-size:20px;margin-top:2px;flex-shrink:0;}
+  .inclusion-text strong{display:block;font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--gold);margin-bottom:8px;}
+  .inclusion-text span{font-size:14px;color:var(--cream);opacity:0.90;line-height:1.7;}
+
+  .hotel-band{background:rgba(94,196,182,0.14);padding:12px 24px;font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:700;color:var(--white);margin-bottom:3px;}
+  .hotel-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:2px;background:rgba(201,165,116,0.15);margin-bottom:36px;}
+  .hotel-item{position:relative;aspect-ratio:3/4;overflow:hidden;}
+  .hotel-item img{width:100%;height:100%;object-fit:cover;filter:saturate(1.1);}
+  .hotel-cap{position:absolute;bottom:0;left:0;right:0;padding:10px 12px;background:linear-gradient(180deg,transparent,rgba(14,61,62,0.92));font-size:9px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--gold-light);}
+  @media(max-width:760px){.hotel-grid{grid-template-columns:1fr 1fr;}}
+
+  .gallery-strip{display:grid;grid-template-columns:repeat(4,1fr);grid-template-rows:repeat(2,240px);grid-auto-rows:240px;gap:3px;}
+  .past-trips-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:3px;margin-top:40px;}
+  .past-trip-item{position:relative;overflow:hidden;aspect-ratio:4/3;}
+  .past-trip-item img{width:100%;height:100%;object-fit:cover;filter:saturate(1.1);}
+  .past-trip-cap{position:absolute;bottom:0;left:0;right:0;padding:14px 16px;background:linear-gradient(180deg,transparent,rgba(14,61,62,0.85));font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--gold-light);}
+  @media(max-width:640px){.past-trips-grid{grid-template-columns:repeat(2,1fr);}}
+  .gallery-placeholder{background:var(--navy-mid);border:1px dashed rgba(201,168,76,0.4);display:flex;align-items:center;justify-content:center;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--gold);opacity:0.6;}
+  .gallery-item{overflow:hidden;position:relative;}
+  .gallery-item img{width:100%;height:100%;object-fit:cover;filter:saturate(1.1);}
+  .gallery-cap{position:absolute;bottom:0;left:0;right:0;padding:14px 16px;background:linear-gradient(180deg,transparent,rgba(14,61,62,0.75));font-size:9px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--gold-light);}
+
+  .perfect-bg{background:var(--navy-mid);}
+  .checklist{display:grid;grid-template-columns:repeat(2,1fr);gap:0;margin-top:44px;}
+  .check-item{padding:22px 0;border-bottom:1px solid rgba(201,168,76,0.12);display:flex;align-items:flex-start;gap:14px;font-size:14px;color:var(--cream);line-height:1.5;}
+  .check-item:nth-child(odd){padding-right:44px;}
+  .check-item:nth-child(even){padding-left:44px;border-left:1px solid rgba(201,168,76,0.12);}
+  .check-mark{color:var(--gold);font-size:16px;font-weight:700;flex-shrink:0;margin-top:1px;}
+
+  .route-band{background:rgba(201,168,76,0.15);padding:14px 28px;display:flex;align-items:center;gap:16px;margin-bottom:3px;}
+  #route{position:relative;overflow:hidden;}
+  .route-map-bg{position:absolute; top:20px; right:20px; width:150px; height:300px; opacity:0.2; z-index:0; pointer-events:none;}
+  #route .section-label, #route .section-title, #route > p{position:relative; z-index:1;}
+  @media(max-width:900px){.route-map-bg{width:90px; height:180px; opacity:0.12;}}
+  .route-band span.city{font-family:'Cormorant Garamond',serif;font-size:26px;font-weight:700;color:var(--white);}
+  .route-band span.meta{font-size:10px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--gold);}
+  .itinerary-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;background:rgba(201,168,76,0.12);margin-bottom:3px;}
+  .itin-item{background:var(--navy-mid);padding:30px 26px;}
+  .itin-dest{font-size:10px;font-weight:800;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:6px;}
+  .itin-days{font-family:'Cormorant Garamond',serif;font-size:26px;font-weight:700;color:var(--white);margin-bottom:14px;line-height:1;}
+  .itin-day{display:flex;gap:12px;margin-bottom:10px;font-size:13px;color:var(--cream);opacity:0.92;line-height:1.5;}
+  .itin-day-num{font-weight:700;color:var(--gold);flex-shrink:0;min-width:56px;}
+
+  .host-section{display:grid;grid-template-columns:340px 1fr;gap:70px;align-items:start;}
+  .host-photo-wrap img{width:100%;aspect-ratio:1;object-fit:cover;object-position:top center;border:4px solid var(--gold);outline:1px solid rgba(201,168,76,0.3);outline-offset:6px;}
+  .host-name{font-family:'Cormorant Garamond',serif;font-size:34px;font-weight:700;color:var(--white);margin-top:20px;}
+  .host-role{font-size:10px;font-weight:700;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin:8px 0 14px;display:block;}
+  .host-copy p{font-size:15px;line-height:1.9;color:var(--cream);opacity:0.95;margin-bottom:14px;}
+  .host-quote{background:var(--navy-mid);border:1px solid rgba(201,168,76,0.3);padding:28px 32px;margin:24px 0;}
+  .host-quote p{font-family:'Cormorant Garamond',serif;font-size:19px;font-style:italic;color:var(--cream);opacity:1;margin:0;}
+  .host-facts{margin-top:20px;}
+  .host-fact{border-top:1px solid rgba(201,168,76,0.15);padding:10px 0;font-size:13px;color:var(--cream);opacity:0.95;}
+  .host-fact strong{color:var(--gold);font-weight:700;text-transform:uppercase;letter-spacing:1px;font-size:10px;margin-right:10px;}
+
+  .pricing-header{padding:80px 60px;text-align:center;background:var(--navy-mid);}
+  .pricing-header h2{font-family:'Cormorant Garamond',serif;font-size:clamp(40px,6vw,70px);font-weight:700;color:var(--white);line-height:1.0;}
+  .pricing-header h2 em{font-style:italic;color:var(--aqua);font-weight:400;}
+  .pricing-header p{font-family:'Cormorant Garamond',serif;font-size:19px;font-style:italic;color:var(--cream);opacity:0.88;max-width:640px;margin:22px auto 0;line-height:1.6;}
+  .pricing-tiers{display:grid;grid-template-columns:repeat(2,1fr);gap:2px;background:rgba(201,168,76,0.15);}
+  .tier{background:var(--navy-mid);padding:48px 28px;text-align:center;}
+  .tier-label{font-size:10px;font-weight:800;letter-spacing:3px;text-transform:uppercase;color:var(--aqua);margin-bottom:6px;}
+  .tier-date{font-size:12px;font-weight:600;color:var(--cream);margin-bottom:28px;line-height:1.5;letter-spacing:0.5px;}
+  .tier-price-label{font-size:11px;font-weight:600;color:var(--white);letter-spacing:2px;text-transform:uppercase;margin-bottom:3px;opacity:0.95;}
+  .tier-price{font-family:'Cormorant Garamond',serif;font-size:48px;font-weight:700;color:var(--white);line-height:1;}
+  .pricing-notes{background:rgba(201,168,76,0.04);border:1px solid rgba(201,168,76,0.15);border-top:none;padding:44px 60px;}
+  .pricing-notes ul{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:12px 50px;}
+  .pricing-notes li{font-size:13px;color:var(--white);opacity:0.97;padding-left:16px;position:relative;line-height:1.6;}
+  .pricing-notes li::before{content:'•';position:absolute;left:0;color:var(--gold);}
+
+  .visa-box{background:rgba(201,168,76,0.06);border:1px solid rgba(201,168,76,0.25);padding:44px 60px;}
+  .visa-steps{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:24px;}
+  .visa-step{background:var(--navy-mid);border:2px solid var(--gold);padding:26px 22px;}
+  .visa-step-num{font-family:'Cormorant Garamond',serif;font-size:48px;font-weight:700;color:var(--gold);line-height:1;margin-bottom:10px;display:block;}
+  .visa-step-text{font-size:13px;color:var(--cream);line-height:1.7;}
+  .visa-step-text strong{color:var(--white);}
+
+  .faq-grid{display:grid;grid-template-columns:1fr 1fr;gap:2px;background:rgba(201,168,76,0.12);margin-top:44px;}
+  .faq-item{background:var(--navy-mid);padding:30px 34px;}
+  .faq-q{font-size:13px;font-weight:700;color:var(--gold-light);margin-bottom:10px;letter-spacing:0.5px;}
+  .faq-a{font-size:13px;color:var(--cream);opacity:0.92;line-height:1.7;}
+
+  .register-section{background:var(--navy-mid);padding:80px 60px;}
+  .register-inner{max-width:640px;margin:0 auto;}
+  .form-field{margin-bottom:20px;}
+  .form-label{display:block;font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--gold);margin-bottom:8px;}
+  .form-input,.form-select,.form-textarea{width:100%;background:var(--navy);border:1px solid rgba(201,168,76,0.35);color:var(--cream);padding:14px 16px;font-family:'Montserrat',sans-serif;font-size:14px;}
+  .form-textarea{resize:vertical;min-height:80px;}
+  .btn-submit{width:100%;background:var(--aqua);color:var(--navy);border:none;padding:18px;font-size:13px;font-weight:800;letter-spacing:3px;text-transform:uppercase;cursor:pointer;margin-top:8px;}
+  .btn-submit:hover{background:var(--gold);}
+  .form-note{font-size:15px;color:var(--cream);opacity:0.70;margin-top:16px;line-height:1.8;}
+
+  .referral-section{text-align:center;padding:70px 60px;border-top:1px solid rgba(201,168,76,0.2);border-bottom:1px solid rgba(201,168,76,0.2);}
+  .referral-section h3{font-family:'Cormorant Garamond',serif;font-size:32px;font-weight:700;color:var(--white);margin-bottom:14px;}
+  .referral-section p{font-size:14px;color:var(--cream);opacity:0.90;max-width:520px;margin:0 auto 24px;line-height:1.7;}
+  .btn-outline{display:inline-block;border:1px solid var(--gold);color:var(--gold-light);padding:16px 36px;font-size:12px;font-weight:700;letter-spacing:3px;text-transform:uppercase;text-decoration:none;}
+  .btn-outline:hover{background:rgba(201,168,76,0.1);}
+
+  .cta-section{position:relative;padding:100px 60px;text-align:center;overflow:hidden;}
+  .cta-bg{position:absolute;inset:0;background:linear-gradient(135deg,var(--navy) 0%,var(--navy-mid) 100%);z-index:0;}
+  .cta-content{position:relative;z-index:1;}
+  .cta-content h2{font-family:'Cormorant Garamond',serif;font-size:clamp(36px,5vw,56px);font-weight:700;color:var(--white);line-height:1.1;margin-bottom:16px;}
+  .cta-content h2 em{font-style:italic;color:var(--aqua);font-weight:400;}
+  .cta-sub{font-size:14px;color:var(--gold);letter-spacing:2px;text-transform:uppercase;margin-bottom:36px;}
+  .cta-buttons{display:flex;justify-content:center;gap:16px;flex-wrap:wrap;margin-bottom:24px;}
+  .btn-gold{display:inline-block;background:var(--aqua);color:var(--navy);padding:18px 32px;font-size:12px;font-weight:800;letter-spacing:2px;text-transform:uppercase;text-decoration:none;}
+  .btn-gold:hover{background:var(--gold);}
+  .cta-contact{font-family:'Cormorant Garamond',serif;font-style:italic;color:var(--cream);opacity:0.97;font-size:26px;margin-top:14px;}
+
+  .page-footer{text-align:center;padding:32px 60px;border-top:1px solid rgba(201,168,76,0.2);font-size:11px;letter-spacing:2px;color:var(--gold);opacity:0.80;}
+
+  .placeholder-note{
+    font-family:'Montserrat',sans-serif; font-size:11px; color:var(--gold-light);
+    background:rgba(201,168,76,0.1); border:1px dashed var(--gold);
+    padding:8px 14px; margin-top:10px; display:inline-block; letter-spacing:0.5px;
+  }
+
+  @media(max-width:900px){
+    .top-bar{padding:12px 20px;gap:14px;}
+    .section{padding:60px 24px;}
+    .host-section{grid-template-columns:1fr;}
+    .destinations,.checklist,.faq-grid,.pricing-tiers,.visa-steps,.itinerary-grid,.photo-strip,.gallery-strip,.inclusions{grid-template-columns:1fr;}
+    .pricing-notes ul{grid-template-columns:1fr;}
+    .cta-buttons{flex-direction:column;}
+  }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TouristTrip",
+  "name": "My Thailand Excursion – February 2027",
+  "description": "A carefully planned small-group Thailand adventure featuring Bangkok, Pattaya, Phuket, premium hotels, transportation, and curated experiences.",
+  "url": "https://mythailandexcursion.com/",
+  "touristType": "Small group travelers",
+  "itinerary": {
+    "@type": "ItemList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Bangkok"},
+      {"@type": "ListItem", "position": 2, "name": "Pattaya"},
+      {"@type": "ListItem", "position": 3, "name": "Phuket"}
+    ]
+  },
+  "organizer": {
+    "@type": "Person",
+    "name": "David Rively"
+  }
+}
+</script>
+</head>
+<body>
+
+<div class="top-bar">
+  <span class="top-bar-date">Feb 16 &ndash; Mar 1, 2027</span>
+  <span class="top-bar-sep">&middot;</span>
+  <span class="top-bar-dest">Bangkok &middot; Phuket</span>
+</div>
+
+<div class="hero">
+  <div class="hero-img"><img src="images/image-01.jpg" alt="Bangkok skyline"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <h1 class="hero-title">Thailand<br><em>2027</em></h1>
+    <div class="gold-bar"></div>
+    <a href="#register" class="btn-hero">Reserve Your Spot</a>
+    <span class="top-bar-limited" style="margin-top:16px;">Limited to 16 Guests</span>
+  </div>
+  <div class="hero-placeholder-grid">
+    <div class="hero-placeholder-item"><img src="images/image-02.jpg" loading="lazy" alt="Elephant moment" style="object-position:center 30%;"></div>
+    <div class="hero-placeholder-item"><img src="images/image-03.jpg" loading="lazy" alt="Ancient City"></div>
+    <div class="hero-placeholder-item"><img src="images/image-04.jpg" loading="lazy" alt="Calypso Cabaret dinner show"></div>
+    <div class="hero-placeholder-item"><img src="images/image-05.jpg" loading="lazy" alt="Wat Pho, Bangkok" style="object-position:15% 40%;"></div>
+  </div>
+</div>
+
+<div class="countdown-section">
+  <p class="countdown-label">Early Access Closes In</p>
+  <div class="countdown-timer">
+    <div class="countdown-unit"><span class="countdown-num" id="cd-days">000</span><span class="countdown-unit-label">Days</span></div>
+    <div class="countdown-unit"><span class="countdown-num" id="cd-hours">00</span><span class="countdown-unit-label">Hours</span></div>
+    <div class="countdown-unit"><span class="countdown-num" id="cd-mins">00</span><span class="countdown-unit-label">Minutes</span></div>
+    <div class="countdown-unit"><span class="countdown-num" id="cd-secs">00</span><span class="countdown-unit-label">Seconds</span></div>
+  </div>
+  <p class="countdown-sub">Early Access deadline: September 30, 2026 &nbsp;&middot;&nbsp; Space is limited to 16 guests</p>
+</div>
+
+<div class="section">
+  <div class="intro-wrap">
+    <p class="section-label">A Total Change of Scenery</p>
+    <blockquote>Stop planning. Start packing.</blockquote>
+    <p>Thailand's already figured out. Sixteen spots, February 2027, Bangkok and Phuket, planned down to the last detail. You just show up.</p>
+  </div>
+</div>
+
+<div class="photo-strip">
+  <div class="photo-strip-item"><img src="images/image-06.jpg" loading="lazy" alt="Grand Palace" style="object-position:center 20%;"></div>
+  <div class="photo-strip-item"><img src="images/image-07.jpg" loading="lazy" alt="Phang Nga Bay"></div>
+  <div class="photo-strip-item"><img src="images/image-08.jpg" loading="lazy" alt="Floating Market"></div>
+  <div class="photo-strip-item"><img src="images/image-09.jpg" loading="lazy" alt="Phuket Sunset"></div>
+</div>
+
+<div class="section" id="route">
+  <svg class="route-map-bg" viewBox="0 0 400 800" xmlns="http://www.w3.org/2000/svg">
+    <path d="M140.7,629.4 C136.5,628.1 124.3,614.5 121.5,609.5 C118.7,604.5 126.3,602.3 124.2,599.3 C122.1,596.3 112.3,595.2 108.8,591.3 C105.2,587.4 107.6,581.1 103.1,575.9 C98.6,570.8 86.3,565.4 81.9,560.2 C77.5,554.9 79.3,545.4 76.8,544.5 C74.4,543.6 70.1,553.8 67.3,554.6 C64.5,555.3 61.0,556.7 60.3,549.1 C59.5,541.4 59.2,523.6 62.6,508.5 C66.0,493.5 77.3,469.6 80.6,459.0 C83.9,448.3 75.8,455.4 82.5,444.7 C89.1,434.0 118.0,412.0 120.3,394.8 C122.7,377.5 100.2,354.9 96.7,341.2 C93.2,327.4 105.0,324.2 99.3,312.2 C93.6,300.2 69.5,279.1 62.5,269.3 C55.4,259.6 58.0,257.4 57.1,253.7 C56.2,250.0 54.5,249.1 57.3,247.1 C60.0,245.0 70.5,247.3 73.6,241.4 C76.7,235.5 73.8,217.2 75.8,211.5 C77.8,205.8 83.5,209.9 85.6,207.4 C87.7,204.8 89.6,197.4 88.4,196.3 C87.2,195.3 81.3,205.2 78.4,201.2 C75.4,197.2 77.2,182.9 70.6,172.6 C63.9,162.3 45.0,149.2 38.7,139.5 C32.4,129.8 36.0,120.5 32.9,114.4 C29.7,108.4 19.0,105.2 20.0,103.1 C21.0,101.0 36.2,104.6 38.6,101.8 C41.0,98.9 32.5,95.1 34.4,86.1 C36.4,77.2 46.4,53.7 50.5,48.2 C54.6,42.7 52.0,53.1 58.9,53.2 C65.8,53.4 85.8,52.1 91.8,49.1 C97.9,46.2 92.0,37.7 95.2,35.5 C98.5,33.2 108.2,37.4 111.4,35.5 C114.7,33.7 111.0,27.1 114.7,24.5 C118.4,21.9 129.5,20.0 133.6,20.0 C137.7,20.0 136.6,24.1 139.2,24.6 C141.8,25.1 145.6,21.4 149.2,22.7 C152.7,24.1 159.8,28.2 160.4,32.9 C161.0,37.5 153.3,46.0 152.8,50.6 C152.4,55.3 151.3,59.3 157.7,60.6 C164.0,62.0 185.8,57.4 190.8,58.6 C195.8,59.8 186.9,64.0 187.5,67.8 C188.0,71.6 195.1,74.7 194.0,81.3 C193.0,87.9 182.5,100.5 181.2,107.4 C179.9,114.4 187.1,116.5 186.1,122.8 C185.1,129.1 175.4,140.8 175.3,145.3 C175.2,149.9 177.2,154.7 185.6,150.0 C194.1,145.4 215.0,119.9 226.0,117.3 C237.0,114.7 244.9,132.9 251.8,134.4 C258.7,136.0 262.4,131.2 267.6,126.7 C272.8,122.3 276.1,110.1 282.8,107.7 C289.5,105.3 298.4,105.7 307.9,112.4 C317.5,119.2 334.6,135.1 340.2,148.2 C345.8,161.2 334.9,177.4 341.5,190.7 C348.2,204.0 374.8,218.1 380.0,227.9 C385.2,237.6 373.8,241.3 373.0,249.3 C372.3,257.3 377.6,269.9 375.7,275.9 C373.8,281.8 364.8,282.7 361.6,285.2 C358.3,287.7 358.9,291.6 356.0,290.9 C353.1,290.1 357.9,281.7 344.1,280.9 C330.4,280.1 289.8,279.7 273.5,286.0 C257.3,292.3 252.4,313.1 246.6,318.6 C240.8,324.1 238.9,312.4 238.5,318.9 C238.0,325.4 241.1,349.3 244.0,357.5 C246.9,365.6 254.4,363.9 256.0,367.6 C257.5,371.4 252.3,374.1 253.3,380.0 C254.2,385.9 262.4,403.1 261.9,403.1 C261.3,403.0 254.2,383.7 250.0,379.6 C245.8,375.6 238.8,380.1 236.8,378.8 C234.7,377.4 238.2,372.5 237.6,371.7 C236.9,370.9 234.8,375.4 232.7,373.9 C230.5,372.4 228.3,365.5 224.7,362.6 C221.2,359.8 220.3,357.5 211.5,356.6 C202.8,355.8 178.0,363.1 172.3,357.6 C166.7,352.1 183.4,329.0 177.6,323.7 C171.9,318.4 144.7,316.6 137.8,325.7 C130.9,334.9 142.7,356.7 136.1,378.8 C129.6,400.9 104.0,437.0 98.3,458.3 C92.7,479.5 97.1,498.7 102.1,506.4 C107.1,514.1 123.2,499.8 128.5,504.5 C133.8,509.2 130.9,528.2 133.7,534.7 C136.6,541.2 141.1,533.3 145.6,543.3 C150.0,553.4 160.1,590.4 160.3,594.9 C160.6,599.3 150.0,573.5 146.9,570.0 C143.7,566.5 141.6,570.9 141.6,573.9 C141.6,576.9 140.4,581.8 146.8,588.0 C153.2,594.2 170.5,607.2 179.8,611.1 C189.0,614.9 194.6,606.6 202.4,611.0 C210.1,615.4 224.2,629.6 226.2,637.6 C228.3,645.6 218.3,656.8 214.5,659.1 C210.8,661.4 208.4,650.8 203.5,651.5 C198.5,652.3 189.0,662.9 184.8,663.8 C180.6,664.7 178.5,661.3 178.3,656.8 C178.1,652.3 184.5,640.2 183.5,637.0 C182.5,633.7 174.9,639.1 172.3,637.3 C169.7,635.4 171.2,628.1 167.9,626.0 C164.5,623.9 155.6,626.1 152.1,624.6 C148.5,623.1 148.6,616.4 146.7,617.2 C144.8,618.0 144.9,630.7 140.7,629.4 Z"
+      fill="none" stroke="#3EC19F" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="157" cy="311" r="7" fill="#C9A574"/>
+    <circle cx="65" cy="566" r="7" fill="#C9A574"/>
+    <path d="M157,311 C130,400 90,480 65,566" fill="none" stroke="#F2EFE6" stroke-width="2" stroke-dasharray="7,8"/>
+    <text x="167" y="306" fill="#F2EFE6" font-family="Montserrat, sans-serif" font-size="19" font-weight="700" letter-spacing="1">BANGKOK</text>
+    <text x="5" y="600" fill="#F2EFE6" font-family="Montserrat, sans-serif" font-size="19" font-weight="700" letter-spacing="1">PHUKET</text>
+  </svg>
+  <p class="section-label">The Route</p>
+  <h2 class="section-title">Two cities. <em>One trip.</em></h2>
+  <p style="font-size:15px;opacity:0.90;max-width:640px;margin-bottom:40px;">Bangkok, where the trip begins and ends, alive with markets, temples, and a skyline that never really sleeps. Phuket, where the pace drops and the water takes over, island days and sunsets that make the whole trip worth it.</p>
+</div>
+
+<div class="destinations">
+  <div class="dest">
+    <img src="images/image-10.jpg" loading="lazy" alt="Bangkok">
+    <div class="dest-overlay"></div>
+    <div class="dest-info">
+      <span class="dest-city">Bangkok</span>
+      <span class="dest-nights">3 Nights</span>
+      <p class="dest-desc">Markets, a little pampering, and a few hands-on moments before you even leave the city.</p>
+    </div>
+  </div>
+  <div class="dest">
+    <img src="images/image-11.jpg" loading="lazy" alt="Phuket longtail boat">
+    <div class="dest-overlay"></div>
+    <div class="dest-info">
+      <span class="dest-city">Phuket</span>
+      <span class="dest-nights">7 Nights</span>
+      <p class="dest-desc">Multiple full days on the water by private boat, a nature and culture day, and real free time.</p>
+    </div>
+  </div>
+  <div class="dest">
+    <img src="images/image-12.jpg" loading="lazy" alt="Bangkok Return">
+    <div class="dest-overlay"></div>
+    <div class="dest-info">
+      <span class="dest-city">Bangkok</span>
+      <span class="dest-nights">3 Nights</span>
+      <p class="dest-desc">Temples, a cultural show, and a farewell dinner built to be the best night of the trip.</p>
+    </div>
+  </div>
+</div>
+
+<div class="section" id="accommodations">
+  <p class="section-label">Where You'll Stay</p>
+  <h2 class="section-title">Comfort, <em>every night</em></h2>
+  <p style="font-size:15px;opacity:0.90;max-width:640px;margin-bottom:30px;">Four and five star hotels throughout, all serving daily breakfast buffets.</p>
+
+  <div class="hotel-band">Bangkok &middot; 6 Nights</div>
+  <div class="hotel-grid">
+    <div class="hotel-item"><img src="images/image-13.jpg" loading="lazy" alt="Bangkok hotel guest room"><div class="hotel-cap">Guest Room</div></div>
+    <div class="hotel-item"><img src="images/image-14.jpg" loading="lazy" alt="Bangkok hotel lobby"><div class="hotel-cap">Lobby</div></div>
+    <div class="hotel-item"><img src="images/image-15.jpg" loading="lazy" alt="Bangkok hotel dining"><div class="hotel-cap">Dining</div></div>
+    <div class="hotel-item"><img src="images/image-16.jpg" loading="lazy" alt="Bangkok hotel fitness center"><div class="hotel-cap">Fitness Center</div></div>
+  </div>
+
+  <div class="hotel-band">Phuket &middot; 7 Nights</div>
+  <div class="hotel-grid">
+    <div class="hotel-item"><img src="images/image-17.jpg" loading="lazy" alt="Phuket hotel guest room"><div class="hotel-cap">Guest Room</div></div>
+    <div class="hotel-item"><img src="images/image-18.jpg" loading="lazy" alt="Phuket hotel pool"><div class="hotel-cap">Pool</div></div>
+    <div class="hotel-item"><img src="images/image-19.jpg" loading="lazy" alt="Phuket hotel dining"><div class="hotel-cap">Dining</div></div>
+    <div class="hotel-item"><img src="images/image-20.jpg" loading="lazy" alt="Phuket hotel lounge"><div class="hotel-cap">Lounge</div></div>
+  </div>
+</div>
+
+<div class="section">
+  <p class="section-label">All-Inclusive</p>
+  <h2 class="section-title">Here's what's <em>covered</em></h2>
+</div>
+<div class="inclusions">
+  <div class="inclusion-item"><span class="inclusion-icon">&#10022;</span><div class="inclusion-text"><strong>Premium Accommodations</strong><span>Four and five star hotels, all serving daily buffet breakfasts.</span></div></div>
+  <div class="inclusion-item"><span class="inclusion-icon">&#10022;</span><div class="inclusion-text"><strong>All Transportation</strong><span>Every transfer, the domestic flight, and all ground logistics between Bangkok and Phuket.</span></div></div>
+  <div class="inclusion-item"><span class="inclusion-icon">&#10022;</span><div class="inclusion-text"><strong>Curated Experiences</strong><span>Private boat days, traditional Thai massage, elephant encounters, and the kind of moments that turn strangers into friends.</span></div></div>
+  <div class="inclusion-item"><span class="inclusion-icon">&#10022;</span><div class="inclusion-text"><strong>Most Meals Included</strong><span>Daily breakfast and most lunches and dinners, with open days left for you to explore.</span></div></div>
+</div>
+
+<div class="gallery-strip">
+  <div class="gallery-item"><img src="images/image-21.jpg" loading="lazy" alt="Ground transport" style="object-position:center 45%;"><div class="gallery-cap">Ground Transport</div></div>
+  <div class="gallery-item" style="grid-column:span 2;"><img src="images/image-22.jpg" loading="lazy" alt="Elephant encounter" style="object-position:center 45%;"><div class="gallery-cap">Elephant Encounter</div></div>
+  <div class="gallery-item"><img src="images/image-23.jpg" loading="lazy" alt="David in Phuket" style="object-position:center 25%;"><div class="gallery-cap">Phuket</div></div>
+  <div class="gallery-item"><img src="images/image-24.jpg" loading="lazy" alt="Phang Nga Bay"><div class="gallery-cap">Phang Nga Bay</div></div>
+  <div class="gallery-item"><img src="images/image-25.jpg" loading="lazy" alt="Thai temple" style="object-position:center 25%;"><div class="gallery-cap">Bangkok Temples</div></div>
+  <div class="gallery-item"><img src="images/image-26.jpg" loading="lazy" alt="Bamboo rafting" style="object-position:center 20%;"><div class="gallery-cap">Bamboo Rafting</div></div>
+  <div class="gallery-item"><img src="images/image-27.jpg" loading="lazy" alt="Khao San Road foot massage"><div class="gallery-cap">Khao San Road</div></div>
+</div>
+
+<div class="perfect-bg">
+  <div class="section">
+    <p class="section-label">Is This Trip For You?</p>
+    <h2 class="section-title">This adventure is perfect for you <em>if...</em></h2>
+    <p style="font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--gold-light);margin-bottom:24px;">Activity Level: Light. Walking tours and boat days, no hiking or strenuous trekking required.</p>
+    <div class="checklist">
+      <div class="check-item"><span class="check-mark">&#10022;</span>You want Thailand without the stress of planning it yourself</div>
+      <div class="check-item"><span class="check-mark">&#10022;</span>You value private access over crowded tour-bus experiences</div>
+      <div class="check-item"><span class="check-mark">&#10022;</span>You appreciate premium accommodations and curated experiences</div>
+      <div class="check-item"><span class="check-mark">&#10022;</span>You want a small group, not a packed bus of strangers</div>
+    </div>
+  </div>
+</div>
+
+<div class="section" id="itinerary">
+  <p class="section-label">The Journey</p>
+  <h2 class="section-title">A taste of what's <em>ahead</em></h2>
+  <p style="font-size:15px;opacity:0.90;max-width:640px;margin-bottom:20px;">The full day-by-day stays under wraps on purpose. A few things are meant to show up as surprises. Here's the shape of it.</p>
+
+  <div class="route-band"><span class="city">Bangkok</span><span class="meta">3 Nights &middot; Feb 16&ndash;19</span></div>
+  <div class="itinerary-grid">
+    <div class="itin-item">
+      <p class="itin-dest">Bangkok</p>
+      <p class="itin-days">Arrival, on the water</p>
+      <div class="itin-day"><span>Your first night in the city doesn't happen on land.</span></div>
+    </div>
+    <div class="itin-item">
+      <p class="itin-dest">Bangkok</p>
+      <p class="itin-days">Hands-on, not just sightseeing</p>
+      <div class="itin-day"><span>A few experiences here, you're doing, not just watching.</span></div>
+    </div>
+    <div class="itin-item">
+      <p class="itin-dest">Bangkok</p>
+      <p class="itin-days">Markets &amp; a kitchen that isn't touristy</p>
+      <div class="itin-day"><span>Floating markets, and a stop most visitors never find.</span></div>
+    </div>
+  </div>
+
+  <div class="route-band"><span class="city">Phuket</span><span class="meta">7 Nights &middot; Feb 19&ndash;26</span></div>
+  <div class="itinerary-grid">
+    <div class="itin-item">
+      <p class="itin-dest">Phuket</p>
+      <p class="itin-days">Islands, by private boat</p>
+      <div class="itin-day"><span>Multiple full days out on the water.</span></div>
+    </div>
+    <div class="itin-item">
+      <p class="itin-dest">Phuket</p>
+      <p class="itin-days">An encounter you won't forget</p>
+      <div class="itin-day"><span>Some moments here you'll be talking about for years.</span></div>
+    </div>
+    <div class="itin-item">
+      <p class="itin-dest">Phuket</p>
+      <p class="itin-days">Off the tourist track</p>
+      <div class="itin-day"><span>Local flavor most visitors never get close to.</span></div>
+    </div>
+    <div class="itin-item">
+      <p class="itin-dest">Phuket</p>
+      <p class="itin-days">Slower days, on purpose</p>
+      <div class="itin-day"><span>Free time built into the schedule, no itinerary required.</span></div>
+    </div>
+    <div class="itin-item">
+      <p class="itin-dest">Phuket</p>
+      <p class="itin-days">Time by the water</p>
+      <div class="itin-day"><span>Beachfront hours with nowhere else to be.</span></div>
+    </div>
+    <div class="itin-item">
+      <p class="itin-dest">Phuket</p>
+      <p class="itin-days">An evening out, done right</p>
+      <div class="itin-day"><span>Good food, good company, a proper night off.</span></div>
+    </div>
+    <div class="itin-item">
+      <p class="itin-dest">Phuket</p>
+      <p class="itin-days">One more surprise</p>
+      <div class="itin-day"><span>We're not spoiling this one. You'll see.</span></div>
+    </div>
+  </div>
+
+  <div class="route-band"><span class="city">Bangkok</span><span class="meta">3 Nights &middot; Feb 26&ndash;Mar 1</span></div>
+  <div class="itinerary-grid">
+    <div class="itin-item">
+      <p class="itin-dest">Bangkok</p>
+      <p class="itin-days">A city built centuries ago, in miniature</p>
+      <div class="itin-day"><span>An afternoon unlike anything else on the trip.</span></div>
+    </div>
+    <div class="itin-item">
+      <p class="itin-dest">Bangkok</p>
+      <p class="itin-days">Temples, culture, and a proper show</p>
+      <div class="itin-day"><span>The Bangkok everyone pictures, done the right way.</span></div>
+    </div>
+    <div class="itin-item">
+      <p class="itin-dest">Bangkok</p>
+      <p class="itin-days">A last night to remember</p>
+      <div class="itin-day"><span>A proper farewell dinner to close out the trip.</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="section" id="host">
+  <p class="section-label">Your Host</p>
+  <h2 class="section-title">David <em>Rively</em></h2>
+  <div class="host-section">
+    <div class="host-photo-wrap">
+      <img src="images/image-28.jpg" loading="lazy" alt="David Rively" style="object-position:center 30%;">
+      <p class="host-name">David Rively</p>
+      <span class="host-role">Host &amp; Trip Administrator</span>
+    </div>
+    <div class="host-copy">
+      <p>Raised on the French Riviera and fluent in French and English, David has spent a lifetime moving through Europe, Southeast Asia, and Indonesia. Thailand is the place he keeps coming back to.</p>
+      <p>Ten-plus years of returning to the same streets, the same families, the same boat captains and tailors and cooks has bought him something a guidebook can't: real access. This trip runs on those relationships, not a standard tour package.</p>
+      <p>He handles every detail personally, from the first airport transfer to the last. He's there for you for whatever you need, as much as possible. Years spent working in hospitality shaped how he runs every trip.</p>
+      <div class="host-quote">
+        <p>"This isn't my first trip to Thailand. It won't feel like your first either."</p>
+      </div>
+      <div class="host-facts">
+        <div class="host-fact"><strong>Languages</strong>French &amp; English</div>
+        <div class="host-fact"><strong>Thailand Experience</strong>10+ years, deep local network</div>
+        <div class="host-fact"><strong>Also</strong>Avid water enthusiast &amp; scuba diver</div>
+      </div>
+    </div>
+    <div style="grid-column:1/-1;">
+      <p style="font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--gold);margin:32px 0 4px;">Beyond Thailand</p>
+      <p style="font-size:14px;opacity:0.85;margin-bottom:8px;max-width:700px;">Thailand isn't the only place he's brought people to. Trips have taken guests to France, Hawaii, and Switzerland, with Bali, England, and Ireland already on the horizon for the future. Thailand just happens to be the one he keeps coming back to.</p>
+      <div class="past-trips-grid">
+      <div class="past-trip-item"><img src="images/image-29.jpg" loading="lazy" alt="Mount Shasta, California"><div class="past-trip-cap">Mount Shasta, California</div></div>
+      <div class="past-trip-item"><img src="images/image-30.jpg" loading="lazy" alt="Grand Tetons, Wyoming"><div class="past-trip-cap">Grand Tetons, Wyoming</div></div>
+      <div class="past-trip-item"><img src="images/image-31.jpg" loading="lazy" alt="Kauai, Hawaii"><div class="past-trip-cap">Kauai, Hawaii</div></div>
+      <div class="past-trip-item"><img src="images/image-32.jpg" loading="lazy" alt="Paris, France"><div class="past-trip-cap">Paris, France</div></div>
+      <div class="past-trip-item"><img src="images/image-33.jpg" loading="lazy" alt="County Meath, Ireland"><div class="past-trip-cap">County Meath, Ireland</div></div>
+      <div class="past-trip-item"><img src="images/image-34.jpg" loading="lazy" alt="St. Michael's Mount, England"><div class="past-trip-cap">St. Michael's Mount, England</div></div>
+      <div class="past-trip-item"><img src="images/image-35.jpg" loading="lazy" alt="Lake Geneva, Switzerland"><div class="past-trip-cap">Lake Geneva, Switzerland</div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="pricing-header" id="pricing">
+  <div>
+    <p class="section-label">Pricing</p>
+    <h2>Book <em>early, save more.</em></h2>
+    <p>Per person, land-only. A non-refundable deposit reserves your spot. Space is strictly limited to 16 guests, first come, first served.</p>
+  </div>
+</div>
+<div class="pricing-tiers">
+  <div class="tier">
+    <div class="tier-label">Early Access</div>
+    <div class="tier-date">Book by September 30, 2026</div>
+    <div class="tier-price-label">Double Occupancy</div>
+    <div class="tier-price">$5,300</div>
+    <div class="tier-price-label" style="margin-top:14px;">Single Occupancy</div>
+    <div class="tier-price">$6,100</div>
+  </div>
+  <div class="tier">
+    <div class="tier-label">Standard Rate</div>
+    <div class="tier-date">October 1 &ndash; December 1, 2026</div>
+    <div class="tier-price-label">Double Occupancy</div>
+    <div class="tier-price">$5,800</div>
+    <div class="tier-price-label" style="margin-top:14px;">Single Occupancy</div>
+    <div class="tier-price">$6,600</div>
+  </div>
+</div>
+<div class="pricing-notes">
+  <ul>
+    <li>A $2,000 deposit per person is required to reserve your space</li>
+    <li>Deposits are non-refundable, though your spot can be transferred to another guest</li>
+    <li>Final payment due December 1, 2026</li>
+    <li>Travel insurance is strongly recommended</li>
+    <li>Space is limited and reservations are first-come, first-served</li>
+  </ul>
+</div>
+
+<div class="section" id="visa">
+  <p class="section-label">Before You Go</p>
+  <h2 class="section-title">Entry &amp; visa, <em>handled simply</em></h2>
+</div>
+<div class="visa-box">
+  <div class="visa-steps">
+    <div class="visa-step">
+      <span class="visa-step-num">01</span>
+      <p class="visa-step-text"><strong>Check your passport.</strong> Valid at least 6 months beyond February 28, 2027.</p>
+    </div>
+    <div class="visa-step">
+      <span class="visa-step-num">02</span>
+      <p class="visa-step-text"><strong>US citizens travel visa-free</strong> for tourism. Confirm current policy before departure.</p>
+    </div>
+    <div class="visa-step">
+      <span class="visa-step-num">03</span>
+      <p class="visa-step-text"><strong>File the Thailand Digital Arrival Card.</strong> Free and mandatory, within 72 hours of arrival. <a href="https://tdac.immigration.go.th" target="_blank" style="color:var(--gold-light);text-decoration:underline;">Click here to file</a>.</p>
+    </div>
+    <div class="visa-step">
+      <span class="visa-step-num">04</span>
+      <p class="visa-step-text"><strong>Non-US passport holders:</strong> check with your local Thai embassy well in advance.</p>
+    </div>
+  </div>
+</div>
+
+<div class="section" id="faq">
+  <p class="section-label">Questions</p>
+  <h2 class="section-title">Frequently <em>Asked</em></h2>
+  <div class="faq-grid">
+    <div class="faq-item">
+      <div class="faq-q">What airport do I fly into?</div>
+      <div class="faq-a">Fly into Suvarnabhumi International Airport (BKK) in Bangkok, Thailand's main international hub with direct and connecting flights from most major US cities. Airport transfers on arrival and departure are included.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">Do I need a visa?</div>
+      <div class="faq-a">US citizens travel visa-free for tourism. You'll still need to file the free Thailand Digital Arrival Card within 72 hours of arrival. See the entry requirements above for the full rundown.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">What's the weather like in late February?</div>
+      <div class="faq-a">Late February falls in Thailand's dry season. Expect warm, sunny days with low humidity, generally in the upper 80s to low 90s&deg;F. Good weather for the whole trip, beaches included.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">Is this trip physically demanding?</div>
+      <div class="faq-a">No. It's a relaxed, curated experience. You're never required to join every activity, and the pace is built for enjoying the trip, not powering through it.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">What's the group like?</div>
+      <div class="faq-a">An intimate group, capped at 16 travelers. Small enough that it stays comfortable and easy, without feeling like a packaged tour.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">Can I room with a friend?</div>
+      <div class="faq-a">Yes. Book the double rate and you'll share a room together. Prefer your own space? Choose the single rate instead.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">What if I don't have a roommate for the double rate?</div>
+      <div class="faq-a">Let David know and he'll help coordinate pairing you with another guest.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">Is international airfare included?</div>
+      <div class="faq-a">No. Airfare to and from Bangkok is not included in the land-only price above.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">What's not included?</div>
+      <div class="faq-a">International airfare, alcoholic beverages, personal shopping, meals on free days, travel insurance, and visa fees for non-US passport holders. Everything else on this trip is handled.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">How do I reserve my spot?</div>
+      <div class="faq-a">Submit the form below or contact David directly. A $2,000 deposit secures your place.</div>
+    </div>
+  </div>
+</div>
+
+<div class="register-section" id="register">
+  <div class="register-inner">
+    <p class="section-label">Reserve Your Spot</p>
+    <h2 class="section-title">16 seats. <em>First come, first served.</em></h2>
+    <div class="form-field"><label class="form-label">Full Name</label><input class="form-input" placeholder="Jane Smith"></div>
+    <div class="form-field"><label class="form-label">Email</label><input class="form-input" placeholder="jane@email.com"></div>
+    <div class="form-field">
+      <label class="form-label">Room Preference</label>
+      <select class="form-select">
+        <option value="">Select your preference</option>
+        <option>Double Occupancy: Shared Room</option>
+        <option>Single Occupancy: Private Room</option>
+        <option>Not sure yet, I have questions</option>
+      </select>
+    </div>
+    <div class="form-field"><label class="form-label">Questions for David?</label><textarea class="form-textarea" placeholder="Ask anything, happy to answer before you commit to anything."></textarea></div>
+    <button class="btn-submit" onclick="handleFormSubmit()">Submit My Interest: I Want to Learn More</button>
+    <p class="form-note"><strong style="color:var(--gold-light);">Submitting this form does not reserve your space or require payment.</strong> A $2,000 deposit per person is required to officially secure your spot.<br>Contact David directly at <strong style="font-size:1.15em;">1-954-651-0842</strong>.</p>
+  </div>
+</div>
+
+<div class="referral-section">
+  <h3>Know Someone Who'd Love This?</h3>
+  <p>Ask about the Referral Program and generate rewards for everyone you bring into this experience.</p>
+  <a href="mailto:thailandexcursions@gmail.com?subject=Referral%20Inquiry%20-%20Thailand%202027" class="btn-outline">Ask About Referrals</a>
+</div>
+
+<div class="cta-section">
+  <div class="cta-bg"></div>
+  <div class="cta-content">
+    <h2>16 Spots.<br><em>Reserve Yours Today.</em></h2>
+    <p class="cta-sub">February 16 &ndash; March 1, 2027 &nbsp;&middot;&nbsp; Bangkok &nbsp; Phuket</p>
+    <div class="cta-buttons">
+      <a href="tel:19546510842" class="btn-gold">Call David &nbsp; 1-954-651-0842</a>
+      <a href="mailto:thailandexcursions@gmail.com?subject=Question%20-%20Thailand%202027" class="btn-outline">Send a Message</a>
+      <a href="https://www.facebook.com/profile.php?id=61592049290813" target="_blank" class="btn-outline">Follow on Facebook</a>
+    </div>
+    <p class="cta-contact">thailandexcursions@gmail.com</p>
+  </div>
+</div>
+
+<div class="page-footer">
+  THAILAND 2027 &nbsp;&middot;&nbsp; HOSTED BY DAVID RIVELY &nbsp;&middot;&nbsp; <a href="https://www.facebook.com/profile.php?id=61592049290813" target="_blank" style="color:var(--gold);">FACEBOOK</a>
+  <div style="margin-top:10px; font-size:10px; letter-spacing:1.5px; opacity:0.6;">
+    FLORIDA SELLER OF TRAVEL REG. #ST150006
+  </div>
+  <div style="margin-top:14px; font-size:10px; letter-spacing:1.5px;">
+    <a href="Thailand_PrivacyPolicy.html" style="color:var(--aqua); opacity:0.90; margin:0 12px;">PRIVACY POLICY</a>
+    <a href="Thailand_RefundPolicy.html" style="color:var(--aqua); opacity:0.90; margin:0 12px;">REFUND POLICY</a>
+    <a href="Thailand_LiabilityWaiver.html" style="color:var(--aqua); opacity:0.90; margin:0 12px;">LIABILITY FORM</a>
+    <a href="Thailand_TermsOfService.html" style="color:var(--aqua); opacity:0.90; margin:0 12px;">TERMS OF SERVICE</a>
+  </div>
+</div>
+
+<script>
+  function updateCountdown() {
+    var deadline = new Date("2026-09-30T23:59:59").getTime();
+    var now = new Date().getTime();
+    var diff = deadline - now;
+    if (diff <= 0) {
+      document.getElementById('cd-days').textContent = '000';
+      document.getElementById('cd-hours').textContent = '00';
+      document.getElementById('cd-mins').textContent = '00';
+      document.getElementById('cd-secs').textContent = '00';
+      return;
+    }
+    var days = Math.floor(diff / (1000*60*60*24));
+    var hours = Math.floor((diff % (1000*60*60*24)) / (1000*60*60));
+    var mins = Math.floor((diff % (1000*60*60)) / (1000*60));
+    var secs = Math.floor((diff % (1000*60)) / 1000);
+    document.getElementById('cd-days').textContent = String(days).padStart(3,'0');
+    document.getElementById('cd-hours').textContent = String(hours).padStart(2,'0');
+    document.getElementById('cd-mins').textContent = String(mins).padStart(2,'0');
+    document.getElementById('cd-secs').textContent = String(secs).padStart(2,'0');
+  }
+  updateCountdown();
+  setInterval(updateCountdown, 1000);
+
+  function handleFormSubmit() {
+    alert('Thank you for your interest in Thailand 2027!\n\nDavid will be in touch within 24 hours.\n\n1-954-651-0842');
+  }
+</script>
+</body>
+</html>

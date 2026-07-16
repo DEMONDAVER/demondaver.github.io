@@ -1,0 +1,18 @@
+MY THAILAND EXCURSION — GITHUB UPLOAD
+
+Upload everything inside this folder to the root of:
+DEMONDAVER/demondaver.github.io
+
+Important:
+1. Replace the existing index.html.
+2. Keep the four Thailand legal HTML pages.
+3. Upload the entire images folder.
+4. Upload robots.txt, sitemap.xml, and CNAME.
+5. Do not upload this instruction file unless you want to.
+
+After GitHub finishes publishing, open:
+https://mythailandexcursion.com/
+
+Then in Google Search Console inspect:
+https://mythailandexcursion.com/
+and request indexing.
