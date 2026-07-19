@@ -3,15 +3,15 @@
 <head>
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
-<title>Beyond Thailand | My Thailand Excursion</title>
-<meta content="A look at future group adventure destinations beyond Thailand, hosted by David Rively." name="description">
+<title>Meet David | My Thailand Excursion</title>
+<meta content="Meet David Rively, the host behind My Thailand Excursion, and get in touch about a trip." name="description">
 <link href="https://fonts.googleapis.com" rel="preconnect">
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&amp;family=Space+Mono:wght@400;700&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&amp;family=Space+Mono:wght@400;700&amp;family=Inter:wght@400;500;600;700&amp;family=Playfair+Display:ital,wght@0,600;1,600&amp;display=swap" rel="stylesheet">
 <style>
   :root{
-    --ink:#0F1B2E;
-    --ink-deep:#080F1C;
+    --ink:#152B52;
+    --ink-deep:#0B1938;
     --teal:#0E3A3B;
     --teal-deep:#082626;
     --gold:#C9992F;
@@ -212,15 +212,23 @@
     transition:transform .4s ease, box-shadow .4s ease, outline-color .4s ease;
   }
   .collection-card:hover{ transform:translateY(-8px); box-shadow:0 44px 80px -30px rgba(0,0,0,0.8); outline-color:var(--gold-soft); }
-  .split-hero{ display:grid; grid-template-columns:1fr; }
-  @media(min-width:900px){ .split-hero{grid-template-columns:1.6fr 1fr;} }
-  .split-hero-photo img{ width:100%; height:100%; min-height:340px; object-fit:cover; display:block; }
-  .split-hero-panel{ background:linear-gradient(180deg,var(--ink) 0%,var(--ink-deep) 100%); padding:60px 44px; display:flex; flex-direction:column; justify-content:center; }
-  .dest-row{ display:flex; flex-wrap:wrap; justify-content:center; gap:18px; margin-top:10px; }
-  .dest-item{ width:180px; }
-  .dest-item img{ width:100%; height:140px; object-fit:cover; border-radius:3px; display:block; }
-  .dest-item span{ display:block; margin-top:10px; font-size:13px; color:var(--mist-dim); font-family:'Inter',sans-serif; }
   .placeholder-grid{ display:grid; gap:32px; margin-top:32px; }
+  .gallery-section{background:var(--ink-deep); padding:80px 0;}
+  .gallery-grid{display:grid; gap:36px;}
+  @media(min-width:760px){.gallery-grid{grid-template-columns:1fr 1fr;}}
+  .framed-photo{
+    position:relative; aspect-ratio:4/5; padding:5px;
+    background:linear-gradient(160deg, var(--gold-soft), var(--gold) 45%, var(--gold-deep));
+    border-radius:3px; box-shadow:0 24px 55px rgba(0,0,0,.4);
+  }
+  .framed-photo-inner{
+    width:100%; height:100%; border-radius:2px;
+    border:1px solid rgba(8,15,28,0.35);
+    display:flex; align-items:center; justify-content:center;
+    background:rgba(8,15,28,0.35);
+    color:var(--mist-dim); font-family:'Space Mono',monospace; font-size:12px;
+    letter-spacing:0.08em; text-transform:uppercase; text-align:center; padding:20px;
+  }
   @media(min-width:860px){ .placeholder-grid{grid-template-columns:1fr 1fr;} }
   .placeholder-card{
     position:relative;
@@ -343,16 +351,17 @@
 
 
   /* UPDATED HOST BIO */
-  .host-section{background:linear-gradient(180deg,var(--paper) 0%,#f5f1e7 100%); color:var(--ink); padding:90px 0;}
-  .host-grid{display:grid; gap:42px; align-items:center;}
+  .host-section{background:linear-gradient(180deg,var(--ink) 0%,var(--ink-deep) 100%); color:var(--mist); padding:90px 0;}
+  .host-grid{display:grid; gap:42px; align-items:start;}
   @media(min-width:860px){.host-grid{grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);}}
-  .host-photo{width:100%; max-height:620px; object-fit:cover; border-radius:4px; box-shadow:0 24px 55px rgba(8,15,28,.22);}
-  .host-copy h2{font-size:clamp(32px,4.5vw,48px); margin:8px 0 18px; color:var(--ink-deep);}
-  .host-copy p{font-size:16px; line-height:1.75; color:#354052; margin:0 0 16px;}
-  .trust-points{display:grid; gap:12px; margin-top:24px;}
-  .trust-point{display:flex; gap:12px; align-items:flex-start; padding:14px 16px; background:rgba(255,255,255,.72); border-left:3px solid var(--gold); box-shadow:0 6px 18px rgba(8,15,28,.06);}
-  .trust-point strong{display:block; color:var(--ink-deep); margin-bottom:3px;}
-  .trust-point span{color:#4c586b; font-size:14px; line-height:1.5;}
+  .host-photo{width:100%; max-height:620px; object-fit:cover; border-radius:4px; box-shadow:0 24px 55px rgba(0,0,0,.4);}
+  .host-copy h2{font-size:clamp(32px,4.5vw,48px); margin:8px 0 18px; color:var(--mist);}
+  .host-copy p{font-size:16px; line-height:1.75; color:var(--mist-dim); margin:0 0 16px;}
+  .trust-points{display:grid; gap:28px; margin-top:32px;}
+  .trust-point{display:flex; gap:14px; align-items:flex-start; padding:0 0 0 4px; background:transparent; border-left:2px solid var(--gold); box-shadow:none;}
+  .trust-point div:first-child{font-family:'Fraunces',serif; font-size:26px; line-height:1; color:var(--gold); padding-left:14px;}
+  .trust-point strong{display:block; font-family:'Fraunces',serif; font-style:italic; font-weight:500; color:var(--mist); margin-bottom:4px; font-size:17px;}
+  .trust-point span{color:var(--mist-dim); font-size:14px; line-height:1.6;}
 
   /* MORE TRIPS CARD */
   .more-trips-card{grid-column:1/-1; min-height:165px; display:flex; align-items:center; justify-content:center; text-align:center; padding:34px; border:1px dashed rgba(201,153,47,.55); background:linear-gradient(135deg,rgba(201,153,47,.08),rgba(31,92,78,.10));}
@@ -387,90 +396,55 @@
 <header>
 <nav class="wrap">
 <a class="logo" href="index.html" style="text-decoration:none;">
-<img alt="My Thailand Excursion emblem" class="logo-mark" src="images/image-v2-2.png">
+<img alt="My Thailand Excursion emblem" class="logo-mark" src="image-v2-2.png">
 <span class="logo-text"><span class="l1">MY THAILAND</span><span class="l2">EXCURSION</span></span>
 </a>
 <div class="navlinks">
 <a href="index.html#collection">The Collection</a>
 <a href="index.html#future">What is Next</a>
-<a href="meet-david.html">Meet David</a>
+<a href="tell-me-about-your-group.html">Tell Me About Your Group</a>
 </div>
 <a class="btn btn-ghost" href="index.html" style="padding:10px 20px;">Back to Home</a>
 </nav>
 </header>
-<section class="split-hero">
-<div class="split-hero-photo">
-<img alt="Join My Friends and I in Thailand — David with two elephants" src="images/image-v2-20.jpg"/>
+<section class="host-section" id="about-david"><div class="wrap host-grid"><div class="reveal">
+<div class="framed-photo" style="aspect-ratio:auto; padding:5px;">
+<img alt="David Rively with elephants in Thailand" class="host-photo" src="image-v2-10.jpg" style="max-height:460px; display:block; border-radius:2px;"/>
 </div>
-<div class="split-hero-panel">
-<div class="mono" style="color:var(--gold); font-size:12px; letter-spacing:0.16em; text-transform:uppercase; margin-bottom:16px;">Curated. Personal. Unforgettable.</div>
-<h2 style="font-family:'Fraunces',serif; font-weight:600; font-size:clamp(28px,3.2vw,38px); color:var(--mist); line-height:1.2; margin:0 0 20px;">Extraordinary Journeys.<br/>Lasting Memories.</h2>
-<p style="color:var(--mist-dim); font-size:15px; line-height:1.7; margin:0 0 18px;">These are small-group adventures for like-minded travelers who care about connection, culture, comfort, and a touch of luxury.</p>
-<p style="color:var(--mist-dim); font-size:15px; line-height:1.7; margin:0 0 28px;">Hosted by David Rively, your journey through Thailand, or anywhere else in the world, will be unforgettable, seamless, and beautifully curated.</p>
+<div class="framed-photo reveal" style="aspect-ratio:auto; padding:5px; margin-top:24px;">
+<img alt="David on a boat in Phang Nga Bay, Thailand" src="image-v2-24.jpg" style="width:100%; height:220px; object-fit:cover; display:block; border-radius:2px;"/>
 </div>
-</section>
-<section style="padding:70px 0;">
-<div class="wrap" style="text-align:center;">
-<div style="min-height:60px; display:flex; align-items:center; justify-content:center; margin-bottom:14px;">
-<img alt="Future Trips in the Making — please inquire or ask us about future trips" class="reveal" src="images/image-v2-23.png" style="max-width:420px; width:100%; height:auto;"/>
+<div class="framed-photo reveal" style="aspect-ratio:auto; padding:5px; margin-top:24px;">
+<img alt="David at the Big Buddha in Phuket, Thailand" src="image-v2-25.jpg" style="width:100%; height:220px; object-fit:cover; display:block; border-radius:2px;"/>
 </div>
-<p class="reveal" style="color:var(--mist-dim); font-size:16px; line-height:1.7; max-width:640px; margin:0 auto 40px;">A few more destinations are still taking shape, but here's a look at what I'm working on.</p>
-<div class="placeholder-grid" style="grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); max-width:820px; margin:0 auto;">
-<div class="placeholder-card reveal" style="padding:0; overflow:hidden; display:flex; flex-direction:column;">
-<img alt="David scuba diving gear on a boat in Bali" src="images/image-v2-21.jpg" style="width:100%; aspect-ratio:4/3; object-fit:cover; display:block;"/>
-<div style="padding:20px;">
-<div class="card-eyebrow mono">Coming Soon</div>
-<h3>Scuba Diving Adventures in Bali 2027</h3>
-<p>Come scuba dive in Bali. Drift over coral gardens and volcanic reefs, glide alongside graceful manta rays, and, if the current is right, cross paths with the giant, otherworldly Mola mola sunfish, all in some of the richest, most alive waters on Earth.</p>
+<div class="trust-point reveal" style="margin-top:24px;"><div>&#8220;</div><div><strong>Hands-on planning</strong><span>I coordinate the moving parts, communicate clearly, and remain personally involved from the first conversation through the trip.</span></div></div>
+</div><div class="host-copy reveal"><div class="eyebrow">Meet David</div><h2 style="font-family:'Playfair Display',serif; font-style:italic; font-weight:600; font-size:clamp(34px,4.8vw,52px);">Thailand has been part of my life for years.</h2><p>I’m David Rively, the host behind My Thailand Excursion. I have returned to Thailand many times over the years—not simply as a visitor, but as someone who loves learning the country, building local relationships, and finding the experiences that make a trip feel personal. I'm also an animal lover through and through, which is part of why the elephants keep pulling me back.</p><p>I created these trips because I know how much work it takes to turn “we should all travel together” into a real, well-organized experience. I personally shape the itinerary, coordinate the details, and stay involved throughout the journey so guests can focus on enjoying Thailand and one another.</p><p>Whether I’m hosting one of my scheduled small-group adventures or creating a private trip for a family, club, reunion, congregation, or circle of friends, my goal is the same: a welcoming, thoughtfully planned experience filled with places and moments worth remembering.</p><div class="trust-points"><div class="trust-point"><div>&#8220;</div><div><strong>Firsthand Thailand experience</strong><span>Years of repeat travel and personal knowledge of the destinations and experiences featured.</span></div></div><div class="trust-point"><div>&#8220;</div><div><strong>Small-group attention</strong><span>Trips are intentionally limited so the experience remains personal, flexible, and connected.</span></div></div></div></div></div></section>
+
+<footer id="contact">
+<div class="wrap">
+<div class="contact-inner">
+<div class="reveal">
+<img alt="My Thailand Excursion elephant emblem" src="image-v2-11.png" style="width:150px; height:150px; border-radius:50%; object-fit:cover; margin-bottom:18px; box-shadow:0 12px 34px rgba(0,0,0,0.35); outline:2px solid var(--gold); outline-offset:6px;">
 </div>
-</div>
-<div class="placeholder-card reveal" style="padding:0; overflow:hidden; display:flex; flex-direction:column;">
-<div style="position:relative; aspect-ratio:4/3;">
-<video controls playsinline poster="images/image-v2-22.jpg" onplay="this.nextElementSibling.style.display='none';" style="width:100%; height:100%; object-fit:cover; display:block;">
-<source src="videos/future-trip-1.mp4" type="video/mp4"/>
-</video>
-<div style="position:absolute; top:0; left:0; right:0; bottom:44px; display:flex; align-items:center; justify-content:center; pointer-events:none;">
-<div style="width:64px; height:64px; border-radius:50%; background:rgba(8,15,28,0.55); display:flex; align-items:center; justify-content:center; box-shadow:0 8px 24px rgba(0,0,0,0.4);">
-<svg viewBox="0 0 24 24" width="26" height="26" fill="var(--mist)"><path d="M8 5v14l11-7z"/></svg>
+<div class="contact-links reveal">
+<div><div class="contact-label">Call</div><a href="tel:19546510842">1-954-651-0842</a></div>
+<div><div class="contact-label">Email</div><a href="mailto:thailandexcursions@gmail.com">thailandexcursions@gmail.com</a></div>
+<div>
+<div class="contact-label">Follow</div>
+<div style="display:flex; gap:16px;">
+<a href="https://www.facebook.com/profile.php?id=61592049290813" rel="noopener" target="_blank">Facebook</a>
+<a href="https://www.instagram.com/davidrively/?hl=en" rel="noopener" target="_blank">Instagram</a>
 </div>
 </div>
 </div>
-<div style="padding:20px;">
-<div class="card-eyebrow mono">A Taste Of The Adventure</div>
-<h3>Get Certified in Paradise</h3>
-<p>Never been scuba diving before? Bali is the perfect place to start. This trip is a great opportunity to get PADI certified in some of the clearest, most stunning water in the world, with a real reef waiting on the other side of your first breath underwater.</p>
 </div>
+<div class="wrap footer-bottom" style="padding-left:0; padding-right:0;">
+<div class="legal">© 2027 My Thailand Excursion · David Rively · FL Seller of Travel Reg. #ST150006</div>
+<div class="legal"><div class="footer-legal-links"><a href="Thailand_PrivacyPolicy.html">Privacy Policy</a><a href="Thailand_RefundPolicy.html">Refund Policy</a><a href="Thailand_TermsOfService.html">Terms of Service</a></div></div>
 </div>
-</div>
-</section>
-<section id="destinations" style="background:linear-gradient(180deg,var(--ink) 0%,var(--ink-deep) 100%); color:var(--mist); padding:70px 0;">
-<div class="wrap" style="text-align:center;">
-<div style="display:flex; align-items:center; justify-content:center; gap:16px; margin-bottom:10px;">
-<span style="height:1px; width:80px; background:var(--gold);"></span>
-<span style="color:var(--gold); font-size:18px;">❖</span>
-<span style="height:1px; width:80px; background:var(--gold);"></span>
-</div>
-<h2 style="font-family:'Fraunces',serif; font-weight:600; font-size:clamp(30px,4vw,42px); color:var(--mist); margin:0 0 8px;">Beyond Thailand</h2>
-<p style="color:var(--mist-dim); font-size:15px; margin:0 0 40px;">Past trips, hosted and organized. Extraordinary journeys across the globe.</p>
-<div class="dest-row">
-<div class="dest-item reveal"><img alt="Group David hosted in Paris, France" src="images/image-v2-14.jpg"/><span>Paris, France</span></div>
-<div class="dest-item reveal"><img alt="Group David organized in County Meath, Ireland" src="images/image-v2-15.jpg"/><span>County Meath, Ireland</span></div>
-<div class="dest-item reveal"><img alt="Group David hosted at St. Michael's Mount, England" src="images/image-v2-16.jpg"/><span>St. Michael's Mount, England</span></div>
-<div class="dest-item reveal"><img alt="Group David organized at Mount Shasta, California" src="images/image-v2-17.jpg"/><span>Mount Shasta, California</span></div>
-<div class="dest-item reveal"><img alt="Group David hosted at Grand Tetons, Wyoming" src="images/image-v2-18.jpg"/><span>Grand Tetons, Wyoming</span></div>
-<div class="dest-item reveal"><img alt="Group David organized at Kauai, Hawaii" src="images/image-v2-19.jpg"/><span>Kauai, Hawaii</span></div>
-</div>
-</div>
-</section>
-<footer id="contact" style="padding-top:60px; padding-bottom:32px;">
-<div class="wrap" style="display:flex; flex-wrap:wrap; gap:16px; align-items:center; justify-content:space-between;">
-<a class="logo" href="index.html" style="text-decoration:none;">
-<img alt="My Thailand Excursion emblem" class="logo-mark" src="images/image-v2-2.png">
-<span class="logo-text"><span class="l1">MY THAILAND</span><span class="l2">EXCURSION</span></span>
-</a>
-<div class="legal" style="font-family:'Inter',sans-serif; font-size:14px; color:var(--mist-dim); letter-spacing:normal;">© 2027 My Thailand Excursion · David Rively · FL Seller of Travel Reg. #ST150006</div>
 </div>
 </footer>
+
 <script>
   const revealEls = document.querySelectorAll('.reveal');
   if('IntersectionObserver' in window){
